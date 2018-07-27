@@ -26,6 +26,7 @@ searchUser.addEventListener('keypress' , e => {
                 } else {
                     // Show profile
                     ui.showProfile(data.profile);
+                    ui.showRepos(data.repos);
                 }
             }).catch(err => {
                 console.log(err);
